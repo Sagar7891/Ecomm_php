@@ -1,0 +1,42 @@
+/* Reset some default styles for the list */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Style the navbar */
+.navbar {
+    background-color: #333; /* Background color for the navbar */
+    overflow: hidden;
+}
+
+/* Style the navbar list items */
+.navbar ul {
+    text-align: center; /* Center text within the navbar */
+}
+
+/* Display list items in a line */
+.navbar li {
+    display: inline-block;
+    margin: 0 10px; /* Add spacing between list items */
+}
+
+/* Style the navbar links */
+.navbar a {
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underlines from links */
+    padding: 10px 20px; /* Add some padding around the links */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+/* Change link color on hover */
+.navbar a:hover {
+    background-color: #555; /* Background color on hover */
+}
+
+.main{
+    border: 1px solid black;
+    border-radius: 50%;
+    color: black;
+}

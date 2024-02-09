@@ -1,0 +1,665 @@
+  /* Style for the reviews section */
+  .review-section {
+    margin-top: 20px;
+}
+
+/* Style for each review box */
+.review {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f9f9f9;
+}
+
+.review h3 {
+    font-weight: bold;
+    margin: 0;
+}
+
+.review p {
+    margin: 5px 0;
+}
+
+/* Style for the "No reviews available" message */
+.no-reviews {
+    font-style: italic;
+    color: #888;
+    margin: 10px 0;
+}
+/* Style for the small "Delete" button */
+.delete-btn-small {
+    background-color: #ff0000; /* Background color (red) */
+    color: #ffffff; /* Text color (white) */
+    border: none;
+    border-radius: 4px; /* Rounded corners */
+    padding: 4px 8px; /* Adjust padding for button size */
+    font-size: 14px; /* Adjust font size for button text */
+    cursor: pointer;
+    text-align: center;
+}
+
+/* Hover effect */
+.delete-btn-small:hover {
+    background-color: #ff3333; /* Change color on hover */
+}
+
+/* Style for the review form */
+.review-form {
+     /* Light yellow background */
+    padding: 20px;
+   /* Bright yellow border */
+    border-radius: 5px;
+    margin: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Style for the form header */
+.review-form h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #9ec25e; /* Orange text color */
+}
+
+/* Style for the text input */
+.review-form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+     /* Bright yellow border */
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fff; /* White background */
+}
+
+/* Style for the textarea input */
+.review-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ffcc00; /* Bright yellow border */
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fff; /* White background */
+}
+
+/* Style for the submit button */
+.review-form input[type="submit"] {
+    background-color: #ff6600; /* Orange background */
+    color: #fff; /* White text color */
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Hover effect for the submit button */
+.review-form input[type="submit"]:hover {
+    background-color: #ff4400; /* Darker orange on hover */
+}
+
+
+
+
+
+/* Style for the review section */
+.review-section {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+}
+
+.review-section h2 {
+    font-size: 24px;
+    color: #007bff; /* Blue color for the header */
+    margin-bottom: 15px;
+}
+
+/* Style for each review box */
+.review {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 15px 0;
+    background-color: #ffffff; /* White background */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.review h3 {
+    font-weight: bold;
+    font-size: 18px;
+    color: #333; /* Dark text color */
+    margin: 0;
+}
+
+.review p {
+    font-size: 16px;
+    color: #555; /* Slightly darker text color */
+    margin: 10px 0;
+}
+
+/* Style for the "No reviews available" message */
+.no-reviews {
+    font-style: italic;
+    color: #888;
+    margin: 20px 0;
+}
+
+/* Style for the small "Delete Review" button */
+/* Style for the small "Delete Review" button */
+.delete-btn-small {
+    background-color: #ff0000; /* Background color (red) */
+    color: #ffffff; /* Text color (white) */
+    border: none;
+    border-radius: 15%; /* Rounded button */
+    padding: 4px 8px; /* Adjust padding for a smaller button size */
+    font-size: 14px; /* Adjust font size for a smaller button text */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Hover effect for the "Delete Review" button */
+.delete-btn-small:hover {
+    background-color: #ff3333; /* Darker red on hover */
+}
+
+
+
+
+
+
+
+
+
+      /* Style for the review section */
+.review-section {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+/* Style for the heading */
+.review-section h2 {
+    font-size: 20px;
+    margin: 0;
+    color: #333;
+}
+
+/* Style for individual reviews */
+.review {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for reviewer name */
+.review h3 {
+    font-size: 16px;
+    color: #333;
+}
+
+
+
+
+
+
+/* Style for review text */
+.review p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Style for the "Delete Review" button */
+.delete-btn-small {
+    background-color: #f44336;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Style for the "No reviews available" message */
+.no-reviews {
+    font-size: 16px;
+    color: #777;
+}
+
+/* Define the yellow star color */
+.yellow {
+    color: yellow;
+}
+
+/* Define the white star color */
+.white {
+    color: white;
+}
+
+.star-ratings {
+    display: flex;
+    justify-content: flex-end; /* Align stars to the right */
+    align-items: center; /* Center stars vertically */
+}
+
+.star-ratings .star {
+    font-size:20px;
+    background: url('path-to-star-image.png') no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    margin-right: 5px; /* Adjust the spacing between stars */
+    filter: brightness(90%); /* Adjust brightness to make stars darker */
+}
+
+.star-ratings .star:hover {
+    filter: brightness(100%); /* Full brightness on hover */
+}
+
+
+
+
+.star-rating input[type="radio"] {
+    display: none;
+}
+
+.star-rating label {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.star-rating label:before {
+    content: "\2606"; /* Empty star */
+    padding-right: 5px;
+    color: #ccc;
+}
+
+.star-rating input[type="radio"]:checked + label:before,
+.star-rating label:hover:before {
+    content: "\2605"; /* Filled star */
+    color: #FFD700; /* Yellow color for filled star */
+}
+
+.flex-btn {
+    display: flex;
+    gap: 10px; /* Adjust the gap as needed */
+}
+
+#name{
+                font-size:3.5rem;
+            }
+            #price{
+                font-size:2.4rem;
+            }
+            #cart-container {
+    width: 100%; /* Set width to 100% */
+    text-align: center; /* Center the content */
+  }
+
+  #cart-container .form-button {
+
+    display: block; /* Make the elements block-level */
+
+  }
+  /* Container styling */
+  .description-features-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+  }
+
+  /* Style for the description form */
+  .description-form {
+    width: calc(70% - 10px); /* 80% width with a little spacing in between */
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    overflow-y: auto; /* Add vertical scrollbar */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    max-height: 400px; /* Set a max height for the description box */
+  }
+
+  /* Style for the heading */
+  .description-form h1 {
+    font-size: 28px;
+    color: #333;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+
+  /* Style for the details content */
+  .description-form .details {
+    font-size: 17px;
+    line-height: 1.6;
+    color: #555;
+  }
+
+  /* Scrollbar styling */
+  .description-form::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  .description-form::-webkit-scrollbar-thumb {
+    background: grey; /* Gradient color for the thumb */
+    border-radius: 10px;
+  }
+
+  .description-form::-webkit-scrollbar-track {
+    background-color: #ddd; /* Light grey color for the track */
+    border-radius: 10px;
+  }
+
+  /* Optional: Add a subtle hover effect */
+  .description-form:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    transform: scale(1.01);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+  }
+
+  /* Style for the features form */
+  .features-form {
+    width: calc(30% - 10px); /* 20% width with a little spacing in between */
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    overflow-y: auto; /* Add vertical scrollbar */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  }
+
+  /* Style for the heading */
+  .features-form h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px; /* Add margin between heading and list items */
+  }
+
+  /* Style for the features content */
+  .features-form ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+
+  .features-form li {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 5px;
+  }
+
+  /* Scrollbar styling */
+  .features-form::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  .features-form::-webkit-scrollbar-thumb {
+    background: linear-gradient(45deg, #4CAF50, #008080); /* Gradient color for the thumb */
+    border-radius: 10px;
+  }
+
+  .features-form::-webkit-scrollbar-track {
+    background-color: #ddd; /* Light grey color for the track */
+    border-radius: 10px;
+  }
+
+  /* Optional: Add a subtle hover effect */
+  .features-form:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    transform: scale(1.01);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+  }
+
+  /* Mobile responsiveness */
+  @media (max-width: 768px) {
+    .description-form,
+    .features-form {
+      width: 100%; /* Full width for mobile */
+    }
+  }
+  .star.half::before {
+    content: '\2605'; /* Unicode character for a solid star */
+    position: absolute;
+    display: inline-block;
+    width: 50%;
+    overflow: hidden;
+}
+
+  .plo {
+         font-size: 12px;
+      }
+      /* Your existing styles */
+
+/* Add media queries for mobile devices */
+/* Your existing styles */
+
+/* Add media queries for mobile devices */
+@media only screen and (max-width: 600px) {
+    .average-rating {
+        float: none; /* Center the average rating on mobile */
+        margin-top: 10px; /* Add some space between average rating and reviews on mobile */
+        text-align: center; /* Center the text on mobile */
+    }
+
+    .star-ratings {
+        text-align: center; /* Center the star ratings on mobile */
+    }
+
+    .review-section {
+        padding: 10px; /* Add some padding to the review section on mobile */
+    }
+
+    .review {
+        margin-bottom: 20px; /* Add some space between reviews on mobile */
+    }
+
+    .product-reviews {
+        text-align: center; /* Center the "Product Reviews" heading on mobile */
+    }
+
+    /* Add more mobile-specific styles as needed */
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 600px) {
+    .quick-view {
+        padding: 10px;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .image-container {
+        width: 100%;
+        max-width: 300px; /* Adjust the max-width as needed */
+        margin: 0 auto; /* Center the container */
+        overflow: hidden; /* Hide overflowing images */
+        border-radius: 10px; /* Add rounded corners */
+    }
+
+    .main-image img {
+        width: 100%;
+        height: auto; /* Maintain aspect ratio */
+        display: block; /* Remove extra spacing at the bottom */
+    }
+
+
+    .content {
+        width: 100%;
+    }
+
+    .name, .price, .qty, .form-button, .option-btn {
+        width: 100%;
+        box-sizing: border-box; /* Ensure padding and border don't increase element width */
+    }
+
+    .flex-btn {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .review-section {
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .average-rating {
+        float: none;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .review {
+        margin-bottom: 20px;
+        box-sizing: border-box;
+    }
+
+    .description-form, .features-form {
+        width: 100%;
+    }
+
+    .star-rating input {
+        margin-right: 5px;
+    }
+
+    .review-form {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+/* Mobile Styles */
+@media only screen and (max-width: 600px) {
+    .sub-image {
+        display: flex;
+        overflow-x: auto; /* Enable horizontal scrolling for sub-images */
+        scrollbar-width: thin; /* Set the scrollbar width to thin (works in Firefox) */
+        scrollbar-color: #ddd #fff; /* Set the scrollbar color */
+    }
+
+    .sub-image::-webkit-scrollbar {
+        width: 6px; /* Set the scrollbar width for Webkit browsers (Chrome, Safari, Edge) */
+    }
+
+    .sub-image::-webkit-scrollbar-thumb {
+        background-color: #ddd; /* Set the scrollbar thumb color */
+        border-radius: 3px; /* Add rounded corners to the thumb */
+    }
+
+    .sub-image img {
+        width: 60px; /* Adjust the width as needed for smaller images */
+        height: auto; /* Maintain aspect ratio */
+        margin-right: 5px;
+    }
+}
+
+/* Additional Styles for Larger Screens (if needed) */
+.sub-image {
+    display: flex;
+}
+
+.sub-image img {
+    width: 100px; /* Adjust the width as needed for larger screens */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px;
+}
+/* Mobile Styles */
+@media only screen and (max-width: 600px) {
+    .sub-image {
+        display: flex;
+        overflow-x: auto; /* Enable horizontal scrolling for sub-images */
+        -ms-overflow-style: scrollbar; /* Add scrollbar for IE/Edge */
+        scrollbar-width: thin; /* Set the scrollbar width to thin (works in Firefox) */
+    }
+
+    .sub-image img {
+        width: 60px; /* Adjust the width as needed for smaller images */
+        height: auto; /* Maintain aspect ratio */
+        margin-right: 5px;
+    }
+    /* Mobile Styles */
+@media only screen and (max-width: 600px) {
+    .sub-image {
+        display: flex;
+        overflow-x: auto; /* Enable horizontal scrolling for sub-images */
+        overflow-y: hidden; /* Hide vertical scrollbar */
+        -ms-overflow-style: scrollbar; /* Add scrollbar for IE/Edge */
+        scrollbar-width: thin; /* Set the scrollbar width to thin (works in Firefox) */
+        scrollbar-color: black; /* Set the scrollbar color for Firefox */
+    }
+
+    .sub-image img {
+        width: 60px; /* Adjust the width as needed for smaller images */
+        height: auto; /* Maintain aspect ratio */
+        margin-right: 5px;
+    }
+
+    /* WebKit-based browsers (Chrome, Safari) */
+    .sub-image::-webkit-scrollbar {
+        height: 8px; /* Set the scrollbar height for WebKit */
+    }
+
+    .sub-image::-webkit-scrollbar-thumb {
+        background-color: black; /* Set the scrollbar thumb color for WebKit */
+    }
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 600px) {
+    .sub-image {
+        display: flex;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch; /* For smooth scrolling on iOS devices */
+        scrollbar-width: thin; /* Firefox */
+        scrollbar-color: black white; /* Firefox */
+    }
+
+    .sub-image::-webkit-scrollbar {
+        width: 12px; /* Set scrollbar width */
+    }
+
+    .sub-image::-webkit-scrollbar-thumb {
+        background-color: black; /* Set scrollbar color */
+    }
+
+    .sub-image img {
+        width: 60px;
+        height: auto;
+        margin-right: 5px;
+    }
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 600px) {
+    .sub-image {
+        display: flex;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch; /* For smooth scrolling on iOS devices */
+        scrollbar-width: thin; /* Firefox */
+        scrollbar-color: black white; /* Firefox */
+        height: 80px; /* Set a fixed height for the container */
+    }
+
+    .sub-image::-webkit-scrollbar {
+        width: 12px; /* Set scrollbar width */
+    }
+
+    .sub-image::-webkit-scrollbar-thumb {
+        background-color: black; /* Set scrollbar color */
+    }
+
+    .sub-image img {
+        width: auto; /* Set width to auto to maintain aspect ratio */
+        height: 100%; /* Ensure each image takes the full height of the container */
+        margin-right: 5px;
+    }
+}
+
+
